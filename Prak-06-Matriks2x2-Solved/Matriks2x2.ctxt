@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=a11\ a12\ a21\ a22
+comment0.target=Matriks2x2(int,\ int,\ int,\ int)
+comment0.text=\n\ Constructor\ dengan\ nilai\ awal\n
+comment1.params=baris\ kolom
+comment1.target=int\ elemen(int,\ int)
+comment1.text=\n\ Getter\ untuk\ elemen\ tertentu\n\ \n\ @throws\ SalahIndeks\ Jika\ indeks\ diluar\ batas\ (>2\ atau\ <1)\n
+comment2.params=kanan
+comment2.target=Matriks2x2\ tambah(Matriks2x2)
+comment2.text=\n\ Menjumlahkan\ dua\ Matriks\n
+comment3.params=kanan
+comment3.target=Matriks2x2\ kurang(Matriks2x2)
+comment3.text=\n\ Mengurangkan\ dua\ Matriks\n
+comment4.params=kanan
+comment4.target=Matriks2x2\ kali(Matriks2x2)
+comment4.text=\n\ Mengalikan\ dua\ Matriks\n
+numComments=5
