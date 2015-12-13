@@ -16,8 +16,14 @@ import java.io.IOException;
  */
 public class DataDecimal
 {
-    public LinkList muat(String namaBerkas){
-        BigDecimal
-        return namaBerkas.toString();
+    public LinkList muat(String namaBerkas)throws FileNotFoundException{
+        try {
+            FileWriter fw = new FileWriter (namaBerkas);
+            BufferedWriter berkas = new BufferedWriter (fw);
+            
+            berkas.close();
+        }catch(IOException err) {
+        }
+        return null;
     }
 }
